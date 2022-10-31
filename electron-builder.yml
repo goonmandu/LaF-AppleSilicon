@@ -1,5 +1,6 @@
 appId: 'tokyo.laf'
 productName: 'LaF'
+electronVersion: 19.0.0
 linux:
   artifactName: LaF_Setup_Linux_${arch}.${ext}
   target:
@@ -12,7 +13,7 @@ mac:
   target:
     - target: dmg
       arch:
-        - x64
+        - arm64
 nsis:
   artifactName: LaF_Setup_Windows_${arch}.${ext}
   oneClick: false
