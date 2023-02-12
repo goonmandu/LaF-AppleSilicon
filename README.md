@@ -1,14 +1,13 @@
 # LaF Client for Krunker
 
 ![TitleImage](./app/img/social.png)</br>
-[![Latest](https://img.shields.io/github/v/release/LaFClient/LaF)](https://github.com/goonmandu/LaF-AppleSilicon/releases/latest)
-[![Latest Downloads](https://img.shields.io/github/downloads/LaFClient/LaF/latest/total)](https://github.com/goonmandu/LaF-AppleSilicon/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/LaFClient/LaF/total?logo=appveyor)](https://github.com/goonmandu/LaF-AppleSilicon/releases)</br>
-[![License](https://img.shields.io/github/license/LaFClient/LaF)](https://github.com/LaFClient/LaF/blob/master/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/LaFClient/LaF/master)](https://github.com/goonmandu/LaF-AppleSilicon/tree/master)
-![Code Lines](https://img.shields.io/tokei/lines/github/goonmandu/LaF-AppleSilicon)
-[![Build/release](https://github.com/LaFClient/LaF/actions/workflows/build.yml/badge.svg)](https://github.com/LaFClient/LaF/actions/workflows/build.yml)
-[![CodeQL](https://github.com/LaFClient/LaF/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LaFClient/LaF/actions/workflows/codeql-analysis.yml)
+
+| | |
+| :--------------: | :------: |
+|  Latest Release  |  6.1.0b  |
+|      License     |    MIT   |
+|    Last Commit   | Feb 2022 |
+
 
 
 **Join the LaF Discord (link does not work): [![Discord](https://discord.com/api/guilds/911130667448954880/widget.png)](https://discord.gg/9M9TgDRt9G)**
@@ -27,22 +26,22 @@ LaF-AppleSilicon is the Apple Silicon native build for LaF with minimal changes 
 - This bug is not fixable at its core unless Krunker does it themselves. It is present in Chromium versions 87 and newer, and the oldest Electron version that works on Apple Silicon macOS (v11.0.0) uses Chromium 87.
 
 ## How to install
-1. Download the [latest release](https://github.com/LaFClient/LaF/releases/latest).\
-**Tip:** Download the file for your pc by referring the table, select accordingly
+1. Download the [latest release](https://github.com/goonmandu/LaF-AppleSilicon/releases/latest).\
+**Tip:** Refer to the table below to choose which version you want. Both are identical in features and gameplay.
 
 |   OS    | Architecture |            File Name                   |  File Type  |
 | :-----: | :----------: | :------------------------------------: |  :--------: |
 |  macOS  |    arm64     |    LaF_Setup_macOS_arm64.dmg (.zip)    |  Installer  |
 |  macOS  |    arm64     |   LaF_Portable_macOS_arm64.dmg (.zip)  |  Standalone |
 
-1. Run either the Installer or the Standalone file you downloaded.\
+2. Run either the Installer or the Standalone file you downloaded.\
 **Tip:** If your Mac tells you the client is "damaged," run the following command in Terminal:
 ```sh
 xattr -cr /Applications/LaF.app   (when using the installer)
 xattr -cr path/to/standalone/app  (when using the standalone portable client)
 ```
 
-2. Follow the dialog.\
+3. Follow the dialog.\
 **Tip:** I don't recommend changing the set install path. But if you have to change it in for some reasons, you can change it.
 
 ## About ResourceSwapper
