@@ -22,6 +22,10 @@ Krunker.io isn't a very heavy game, but there are people who still struggle to g
 ## What is LaF-AppleSilicon?
 LaF-AppleSilicon is the Apple Silicon native build for LaF with minimal changes to the original codebase.
 
+## Known Bugs
+**IMPORTANT!** To fix the issue where the client **lags when pressing left click to shoot,** set your **frame cap** to **1200.**  
+- This bug is not fixable at its core unless Krunker does it themselves. It is present in Chromium versions 87 and newer, and the oldest Electron version that works on Apple Silicon macOS (v11.0.0) uses Chromium 87.
+
 ## How to install
 1. Download the [latest release](https://github.com/LaFClient/LaF/releases/latest).\
 **Tip:** Download the file for your pc by referring the table, select accordingly
