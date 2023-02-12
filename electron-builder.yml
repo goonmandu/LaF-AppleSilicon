@@ -1,6 +1,6 @@
 appId: 'tokyo.laf'
 productName: 'LaF'
-electronVersion: 17.0.0
+electronVersion: 13.6.9
 linux:
   artifactName: LaF_Setup_Linux_${arch}.${ext}
   target:
