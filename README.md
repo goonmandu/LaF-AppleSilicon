@@ -6,7 +6,7 @@
 | :--------------: | :------: |
 |  Latest Release  |  6.1.0b  |
 |      License     |    MIT   |
-|    Last Commit   | Feb 2022 |
+|    Last Commit   | Feb 2023 |
 
 
 
